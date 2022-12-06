@@ -2,7 +2,7 @@ Feature:
 
   Background:
     * url 'https://gorest.co.in/public/v2'
-    * def access_token = 'cc7a8d5937c3ce14d7fb7446fcd6323d697aca733dd64195ee1849c39296a7af'
+    * def access_token = 'cc7a8d5937c3ce14d7fb7446fcd6323d697aca733dd64195ee1849c39296a7af' // trocar token
 
   Scenario: successfuly get all users
     Given path 'users'
