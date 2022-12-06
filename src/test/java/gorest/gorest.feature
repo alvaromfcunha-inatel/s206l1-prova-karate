@@ -61,13 +61,3 @@ Feature:
 
     When method delete
     Then status 204
-
-
-    
-
-
-
-
-  
-  
- 
